@@ -272,6 +272,19 @@ call s:Col('NeomakeErrorSign', 'red', s:linenr_background)
 call s:Col('NeomakeWarning', 'yellow')
 call s:Col('NeomakeError', 'red')
 
+" NERDTree Git status highlights
+call s:Col('NERDTreeGitModified', 'orange')
+call s:Col('NERDTreeGitStaged', 'green')
+call s:Col('NERDTreeGitUntracked', 'yellow')
+call s:Col('NERDTreeGitRenamed', 'magenta')
+call s:Col('NERDTreeGitUnmerged', 'red')
+call s:Col('NERDTreeGitDeleted', 'red')
+call s:Col('NERDTreeGitDirty', 'red')
+call s:Col('NERDTreeGitClean', 'base4')    " or some "neutral" color
+call s:Col('NERDTreeGitIgnored', 'blue')
+call s:Col('NERDTreeGitUnknown', 'violet')
+
+
 " Cleanup =====================================================================
 
 unlet s:colors
